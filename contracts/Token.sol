@@ -7,11 +7,11 @@ contract TestToken is ERC20 {
     constructor()ERC20("ABUSE","ABST"){} 
 
     function mint1000tokens() public {
-        _mint(msg.sender,1000*10**18);
+        _mint(msg.sender,1000000*10**18);
     }
 
     function burn1000tokens() public{
-        _burn(msg.sender,1000*10**18);
+        _burn(msg.sender,1000000*10**18);
     }
     
 }
